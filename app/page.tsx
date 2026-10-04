@@ -33,9 +33,6 @@ export default function Home() {
             className="absolute w-[260px] h-auto left-0 "
           />
         </Link>
-        <span className="rounded-full border border-jade/40 bg-jade/10 px-4 py-1.5 text-xs font-bold tracking-wide">
-          ODS 12 · Consumo e Produção Responsáveis
-        </span>
 
         <h1 className="mt-6 max-w-2xl text-4xl leading-tight font-black sm:text-5xl">
           Encontre empresas que produzem de forma{" "}

@@ -24,7 +24,7 @@ export function Navbar() {
           aria-label="Ir para a página inicial"
           className="flex size-9 items-center justify-center rounded-full bg-jade text-white transition hover:scale-105"
         >
-          <Leaf className="size-5" />
+          <Leaf className="size-5" color="black" />
         </Link>
 
         {links.map(({ label, href }) => {
