@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ListFilter, Recycle, Building2 } from "lucide-react";
 import { MainCard } from "@/components/MainCard";
+import logo from "../assets/icon.png";
 
 const destaques = [
   {
@@ -24,7 +25,14 @@ const destaques = [
 export default function Home() {
   return (
     <MainCard>
-      <div className="flex flex-col items-center text-center">
+      <div className="flex flex-col relative items-center text-center">
+        <Link href="/">
+          <img
+            src={logo.src}
+            alt="logo"
+            className="absolute w-[260px] h-auto left-0 "
+          />
+        </Link>
         <span className="rounded-full border border-jade/40 bg-jade/10 px-4 py-1.5 text-xs font-bold tracking-wide">
           ODS 12 · Consumo e Produção Responsáveis
         </span>
