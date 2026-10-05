@@ -1,10 +1,12 @@
-# Empresas Sustentáveis — Documentação
+# Sustaintability Tracker — Documentação
 
 ## 1. Overview
 
-**Empresas Sustentáveis** é um site que reúne em um só lugar um compilado de empresas que desenvolvem seus produtos e serviços de maneira sustentável. O projeto apoia o **ODS 12 — Consumo e Produção Responsáveis**, da ONU, dando visibilidade a empresas com boas práticas ambientais e facilitando a busca por elas.
+**Sustaintability Tracker** é um site que reúne em um só lugar um compilado de empresas que desenvolvem seus produtos e serviços de maneira sustentável. O projeto apoia o **ODS 12 — Consumo e Produção Responsáveis**, da ONU, dando visibilidade a empresas com boas práticas ambientais e facilitando a busca por elas.
 
 O projeto foi idealizado por estudantes de Ciência da Computação da Universidade Federal Fluminense.
+
+Link para o site: https://sustaintability-tracker.vercel.app/
 
 ### 1.1 Objetivos
 
