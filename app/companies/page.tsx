@@ -1,7 +1,7 @@
 import { MainCard } from "@/components/MainCard";
 import { RamoFilter } from "@/components/RamoFilter";
 import { CompaniesTable } from "@/components/CompaniesTable";
-import { getCompanies } from "@/lib/find-companies";
+import { getCompanies } from "@/lib/mock-companies";
 import { RAMOS } from "@/lib/ramos";
 
 export const metadata = {
