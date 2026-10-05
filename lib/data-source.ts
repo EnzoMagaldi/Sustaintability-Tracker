@@ -13,7 +13,7 @@ export function getDataSource() {
       password: process.env.DB_PASSWORD,
       connectString: process.env.DB_CONNECT_STRING,
       entities: [CidadeSchema, EmpresaSchema, OfertaSchema],
-      synchronize: false, // nunca deixe true: ele alteraria o seu banco
+      synchronize: false,
       logging: false,
     })
       .initialize()
